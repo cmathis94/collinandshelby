@@ -1,3 +1,23 @@
+body {
+    background-color: #c5bea9;
+}
+
+p:first-child {
+    font-family: 'Joan',
+        serif;
+}
+
 .selector-for-some-widget {
     box-sizing: content-box;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hompage {
+    margin-top: 50px;
 }
