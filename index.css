@@ -1,23 +1,8 @@
 body {
-    background-color: #c5bea9;
-}
-
-p:first-child {
-    font-family: 'Joan',
-        serif;
+    background: rgb(197, 190, 169);
+    background: linear-gradient(90deg, rgba(197, 190, 169, 1) 0%, rgba(226, 226, 226, 1) 51%, rgba(197, 190, 169, 1) 100%);
 }
 
 .selector-for-some-widget {
     box-sizing: content-box;
-}
-
-.center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#hompage {
-    margin-top: 50px;
 }
